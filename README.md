@@ -24,3 +24,5 @@
   - [Nesxc-Butterfly版权美化](https://www.nesxc.com/post/hexocc.html)
 12. 首页分类磁贴
   - [Categories Magnet](https://akilar.top/posts/a9131002/)
+13. 首页github提交日历
+  - [Gitcalendar](https://akilar.top/posts/1f9c68c9/)

@@ -1,6 +1,7 @@
 div
   script(src=url_for(theme.CDN.utils))
   script(src=url_for(theme.CDN.main))
+  script(src=url_for(theme.CDN.vue))
 
   if theme.translate.enable
     script(src=url_for(theme.CDN.translate))
@@ -40,6 +41,9 @@ div
 
     if commentsJsLoad
       include ./third-party/comments/js.pug
+      
+    if theme.gitcalendar.enable
+      !=partial('includes/custom/gitcalendar-js', {}, {cache:true})
 
   !=partial('includes/third-party/prismjs', {}, {cache: true})
 
