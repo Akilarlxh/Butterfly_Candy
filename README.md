@@ -22,3 +22,5 @@
   - [Archive Beautify](https://akilar.top/posts/22257072/)
 11. 版权美化
   - [Nesxc-Butterfly版权美化](https://www.nesxc.com/post/hexocc.html)
+12. 首页分类磁贴
+  - [Categories Magnet](https://akilar.top/posts/a9131002/)

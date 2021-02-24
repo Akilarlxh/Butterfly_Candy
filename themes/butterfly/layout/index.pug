@@ -3,5 +3,8 @@ extends includes/layout.pug
 block content
   include ./includes/mixins/post-ui.pug
   #recent-posts.recent-posts
+    if theme.categoryBar.enable
+      .recent-post-item(style='height:auto;width:100%;padding:0px;')
+        #categoryBar!= list_categories(site.categories,{class: 'categoryBar',depth: 1})
     +postUI
     include includes/pagination.pug
