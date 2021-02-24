@@ -1,9 +1,74 @@
-#loading-box
-  .loading-left-bg
-  .loading-right-bg
-  .spinner-box
-    .configure-border-1
-      .configure-core
-    .configure-border-2
-      .configure-core
-    .loading-word= _p('loading')
+if theme.preloader.enable
+  #loading-box
+    .loading-left-bg
+    .loading-right-bg
+    case theme.preloader.load_style
+      when 'wizard'
+        .wizard-scene
+          .wizard-objects
+            .wizard-square
+            .wizard-circle
+            .wizard-triangle
+          .wizard
+            .wizard-body
+            .wizard-right-arm
+              .wizard-right-hand
+            .wizard-left-arm
+              .wizard-left-hand
+            .wizard-head
+              .wizard-beard
+              .wizard-face
+                .wizard-adds
+              .wizard-hat
+                .wizard-hat-of-the-hat
+                .wizard-four-point-star.--first
+                .wizard-four-point-star.--second
+                .wizard-four-point-star.--third
+      when 'ironheart'
+        .iron-container.iron-circle
+          .iron-box1.iron-circle.iron-center
+          .iron-box2.iron-circle.iron-center
+          .iron-box3.iron-circle.iron-center
+          .iron-box4.iron-circle.iron-center
+          .iron-box5.iron-circle.iron-center
+          .iron-box6.iron-circle
+            .iron-coil(style='--i: 0')
+            .iron-coil(style='--i: 1')
+            .iron-coil(style='--i: 2')
+            .iron-coil(style='--i: 3')
+            .iron-coil(style='--i: 4')
+            .iron-coil(style='--i: 5')
+            .iron-coil(style='--i: 6')
+            .iron-coil(style='--i: 7')
+      when 'scarecrow'
+        .scarecrow
+          .scarecrow__hat
+            .scarecrow__ribbon
+          .scarecrow__head
+            .scarecrow__eye
+            .scarecrow__eye
+            .scarecrow__mouth
+            .scarecrow__pipe
+          .scarecrow__body
+            .scarecrow__glove.scarecrow__glove--l
+            .scarecrow__sleeve.scarecrow__sleeve--l
+            .scarecrow__bow
+            .scarecrow__shirt
+            .scarecrow__coat
+            .scarecrow__waistcoat
+            .scarecrow__sleeve.scarecrow__sleeve--r
+            .scarecrow__glove.scarecrow__glove--r
+            .scarecrow__coattails
+            .scarecrow__pants
+          .scarecrow__arms
+          .scarecrow__leg   
+      when 'image'
+        - var loadimage = theme.preloader.load_image ? theme.preloader.load_image : theme.error_img.post_page
+        img.load-image(src=url_for(loadimage) alt='')
+      default
+        .spinner-box
+          .configure-border-1
+            .configure-core
+          .configure-border-2
+            .configure-core
+          .loading-word= _p('loading')

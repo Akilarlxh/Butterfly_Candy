@@ -10,3 +10,7 @@
   - [Native JS Timer](https://akilar.top/posts/b941af/)
 5. 添加Github徽标
   - [Add Github Badge](https://akilar.top/posts/e87ad7f8/)
+6. 修改加载动画内容
+  - [Loading Animation](https://akilar.top/posts/3d221bf2/)
+7. 添加外挂标签
+  - [Tag Plugins](https://akilar.top/posts/615e2dec/)
