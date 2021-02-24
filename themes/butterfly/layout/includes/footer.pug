@@ -15,3 +15,10 @@
       a(href='https://github.com/jerryc127/hexo-theme-butterfly')= 'Butterfly'
   if theme.footer.custom_text
     .footer_custom_text!=`${theme.footer.custom_text}`
+  #workboard
+  script(async src=url_for(theme.CDN.runtime))
+  p#ghbdages
+    if theme.ghbdage.enable
+      each item in theme.ghbdage.bdageitem
+        a.github-badge(target='_blank' href=url_for(item.link)  style='margin-inline:5px')
+          img(src=url_for(item.shields) title=item.massage)

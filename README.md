@@ -1,0 +1,12 @@
+# 糖果屋魔改合集
+本项目为糖果屋魔改教程的测试Demo，目前已经测试通过的魔改内容有：
+1. 添加看板娘
+  - [Live2d Widget](https://akilar.top/posts/5b8f515f/)
+2. Valine 评论添加 [博主，小伙伴，访客] 标签
+  - [Valine Visitor Tag Beautify](https://akilar.top/posts/d2222705/)
+3. 留言板动态弹出信封样式
+  - [Envelope Style Comments Bar](https://akilar.top/posts/e2d3c450/)
+4. 页脚电子钟计时 (原生)
+  - [Native JS Timer](https://akilar.top/posts/b941af/)
+5. 添加Github徽标
+  - [Add Github Badge](https://akilar.top/posts/e87ad7f8/)

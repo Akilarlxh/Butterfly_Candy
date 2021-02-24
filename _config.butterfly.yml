@@ -959,3 +959,32 @@ CDN:
   prismjs_autoloader: https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
 
   artitalk: https://cdn.jsdelivr.net/npm/artitalk
+  # butterfly—candy custom cdn
+  # 页脚计时器
+  runtime: /js/custom/runtime.js
+
+# custom
+ghbdage:
+  enable: true
+  bdageitem:
+    - link: https://hexo.io/  # 标签跳转链接
+      shields: https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo #shields的API链接，填法参考本篇教程
+      message: 博客框架为Hexo_v5.3.0 #鼠标悬停时显示的信息
+    - link: https://butterfly.js.org/
+      shields: https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender
+      message: 主题版本Butterfly_v3.4.2
+    - link: https://www.jsdelivr.com/
+      shields: https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
+      message: 本站使用JsDelivr为静态资源提供CDN加速
+    - link: https://vercel.com/
+      shields: https://img.shields.io/badge/Hosted-Vercel-brightgreen?style=flat&logo=Vercel
+      message: 本站采用双线部署，默认线路托管于Vercel
+    - link: https://vercel.com/
+      shields: https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&logo=Codio
+      message: 本站采用双线部署，联通线路托管于Coding
+    - link: https://github.com/
+      shields: https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub
+      message: 本站项目由Gtihub托管
+    - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
+      shields: https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris
+      message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
