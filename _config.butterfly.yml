@@ -881,7 +881,8 @@ inject:
     - <script defer src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
     # 自butterfly_v3.4.0+开始，主题基本实现去jquery化，需要自己添加引用，请读者根据版本自行决定是否添加这行引用。
     - <script defer src="https://cdn.jsdelivr.net/npm/hexo-theme-volantis@latest/source/js/issues.min.js"></script>
-
+    # 生肖时间轴
+    - <script async src="//at.alicdn.com/t/font_2264842_3izu8i5eoc2.js"></script>
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改

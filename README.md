@@ -18,3 +18,5 @@
   - [Blog Animation -- Wowjs](https://akilar.top/posts/abab51cf/)
 9. 友链魔改
   - [Friend Link Card Beautify](https://akilar.top/posts/57291286/)
+10. 生肖时间轴
+  - [Archive Beautify](https://akilar.top/posts/22257072/)
