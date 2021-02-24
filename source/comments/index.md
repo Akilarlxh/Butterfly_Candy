@@ -2,6 +2,7 @@
 title: comments
 date: 2021-02-24 15:10:53
 ---
+{% raw %}
 <link rel="stylesheet" href="/css/commentsbar.css"/>
   <div id="computer">
     <div id="maincontent"><br>
@@ -50,3 +51,4 @@ date: 2021-02-24 15:10:53
       </div>
     </form>
   </div>
+{% endraw %}
