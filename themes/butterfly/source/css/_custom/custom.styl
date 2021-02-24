@@ -1,5 +1,262 @@
+/*相册页面定位修复*/
+a > img, .justified-gallery > div > img,
+.justified-gallery > figure > img,
+.justified-gallery > a > a > img,
+.justified-gallery > div > a > img,
+.justified-gallery > figure > a > img,
+.justified-gallery > a > svg,
+.justified-gallery > div > svg,
+.justified-gallery > figure > svg,
+.justified-gallery > a > a > svg,
+.justified-gallery > div > a > svg,
+.justified-gallery > figure > a > svg
+  position static!important
+/* 页脚蝴蝶扇翅动画 */
+.copyright svg
+  animation butterfly 1s linear infinite alternate
+
+@keyframes butterfly
+  from
+    transform rotateY(70deg)
+  to
+    transform rotateY(0deg)
+
+/* 页脚透明 */
+#footer
+  background transparent !important
+/* 头图透明 */
+#page-header
+  background transparent !important
+/* twikoo评论框高度 */
+.tk-input[data-v-619b4c52]
+  .el-textarea__inner
+    height 130px!important
+/*页脚copyright文字图标对齐*/
+.copyright
+  span
+    vertical-align super
+/*标题悬停显示文章描述*/
+#site-name
+  &:hover
+    &:before
+      position: fixed
+      width:fit-content
+      margin:auto
+      left:0;
+      right:0
+      top:10%
+      border-radius: 10px
+      text-align: center
+      z-index: 100
+      content: attr(data-title)
+      font-size: 20px
+      color: #fff
+      padding: 10px
+      background-color: rgba($theme-color,0.9)
+[data-theme=dark]
+  a#site-name
+    &:hover
+      &:before
+        background-color: rgba(#121212,0.8)
+/*标题超过隐藏并显示省略号*/
+@media screen and (max-width: 768px)
+  a#site-name
+    -webkit-line-clamp 1
+    word-break break-all
+    display -webkit-box
+    -webkit-box-orient vertical
+    overflow hidden
+  h1
+    &.post-title
+      width 100%
+      white-space nowrap
+      overflow hidden
+      text-overflow ellipsis
+
+
+
+/* twikoo评论代码块强制换行 */
+#twikoo
+  pre
+    white-space pre-wrap !important
+    word-wrap break-word !important
+    *white-space normal !important
+// waline评论图片大小限制
+#waline-wrap
+  .vcontent img
+    max-width 300px
+  pre
+    white-space pre-wrap !important
+    word-wrap break-word !important
+    *white-space normal !important
+/*标题字体*/
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap:lighter')
+@font-face
+  font-family 'Candyhome'
+  src url('https://cdn.jsdelivr.net/gh/Akilarlxh/akilarlxh.github.io/fonts/Candyhome.ttf')
+  font-display swap
+  font-weight lighter
+
+h1#site-title
+  font-family 'Candyhome'
+  font-size 3em!important
+
+div#post p,
+div#post li,
+.table-container
+  font-family -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "STZhongsong", "Lantinghei SC", sans-serif
 /*电子钟字体*/
 @font-face
   font-family 'UnidreamLED'
   src url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_3/clock/fonts/UnidreamLED.ttf')
   font-display swap
+
+/* 页脚吸底音乐伸缩 */
+.aplayer
+  &.aplayer-fixed
+    &.aplayer-narrow
+      .aplayer-body
+        left -66px !important
+        &:hover
+          left 0px !important
+
+/* 鼠标指针 */
+body,
+html
+  cursor url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cur/arrow.cur'),
+    auto !important
+
+img
+  cursor url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cur/btn.cur'),
+    auto !important
+
+a
+  &:hover
+    cursor url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cur/link.cur'),
+    auto
+
+input
+  &:hover
+    cursor url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cur/input.cur'),
+    auto
+
+button
+  &:hover
+    cursor url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cur/btn.cur'),
+    auto
+
+i
+  &:hover
+    cursor url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cur/link.cur'),
+    auto
+
+#footer-wrap
+  a
+    &:hover
+      cursor url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cur/hf.cur'),
+    auto
+
+#pagination
+  .page-number
+    &:hover
+      cursor url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cur/i.cur'),
+    auto
+
+#nav
+  .site-page
+    &:hover
+      cursor url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cur/hf.cur'),
+    auto
+
+// 滚动条
+::-webkit-scrollbar
+  width 8px
+  height 8px
+
+::-webkit-scrollbar-track
+  background-color rgba(73, 177, 245, 0.2)
+  border-radius 2em
+
+::-webkit-scrollbar-thumb
+  background-color #49b1f5
+  background-image -webkit-linear-gradient(45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent)
+  border-radius 2em
+
+::-webkit-scrollbar-corner
+  background-color transparent
+
+::-moz-selection
+  color #fff
+  background-color #49b1f5
+
+// diff代码块
+figure
+  &.highlight
+    pre
+      .deletion
+        color #ff0000 !important
+      .addition
+        color #00bf03 !important
+// 日间全局透明度
+#recent-posts
+  & > .recent-post-item
+    background rgba(255, 255, 255, 0.9)
+
+
+.card-widget
+  background rgba(255, 255, 255, 0.9)!important
+
+div#post
+  background rgba(255, 255, 255, 0.9)
+
+div#page
+  background rgba(255, 255, 255, 0.9)
+
+div#archive
+  background rgba(255, 255, 255, 0.9)
+
+div#tag
+  background rgba(255, 255, 255, 0.9)
+
+div#category
+  background rgba(255, 255, 255, 0.9)
+//页脚计时器
+div#runtime
+  width 180px
+  margin auto
+  color white
+  padding-inline 5px
+  border-radius 10px
+  background-color rgba(0,0,0,0.7)
+  font-family 'UnidreamLED'
+
+// 夜间全局透明度
+
+
+[data-theme="dark"]
+  div#runtime
+      color rgb(40, 180, 200)
+      box-shadow 0 0 5px rgba(28, 69, 218, 0.71)
+      animation flashlight 1s linear infinite alternate
+  #recent-posts
+    & > .recent-post-item
+      background rgba(0, 0, 0, 0.5)
+  div.card-widget
+    background rgba(0, 0, 0, 0.5)!important
+  div#post
+    background rgba(0, 0, 0, 0.5)
+  div#page
+    background rgba(0, 0, 0, 0.5)
+  div#archive
+    background rgba(0, 0, 0, 0.5)
+  div#tag
+    background rgba(0, 0, 0, 0.5)
+  div#category
+    background rgba(0, 0, 0, 0.5)

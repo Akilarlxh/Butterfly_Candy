@@ -7,15 +7,15 @@
 #   name || link || icon
 
 menu:
-  Home: / || fas fa-home
-  Archives: /archives/ || fas fa-archive
-  # Tags: /tags/ || fas fa-tags
-  # Categories: /categories/ || fas fa-folder-open
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
   # List||fas fa-list:
   #   - Music || /music/ || fas fa-music
   #   - Movie || /movies/ || fas fa-video
-  Comments: /comments/ || fa fa-comments
-  Link: /link/ || fas fa-link
+  留言: /comments/ || fa fa-comments
+  友链: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
@@ -24,7 +24,7 @@ hide_sidebar_menu_child: false
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -487,20 +487,20 @@ yandex_site_verification:
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 
-# theme_color:
-#   enable: true
-#   main: "#49B1F5"
-#   paginator: "#00c4b6"
-#   button_hover: "#FF7242"
-#   text_selection: "#00c4b6"
-#   link_color: "#99a9bf"
-#   meta_color: "#858585"
-#   hr_color: "#A4D8FA"
-#   code_foreground: "#F47466"
-#   code_background: "rgba(27, 31, 35, .05)"
-#   toc_color: "#00c4b6"
-#   blockquote_padding_color: "#49b1f5"
-#   blockquote_background_color: "#49b1f5"
+theme_color:
+  enable: true
+  main: "#49B1F5"
+  paginator: "#00c4b6"
+  button_hover: "#FF7242"
+  text_selection: "#00c4b6"
+  link_color: "#99a9bf"
+  meta_color: "#858585"
+  hr_color: "#A4D8FA"
+  code_foreground: "#F47466"
+  code_background: "rgba(27, 31, 35, .05)"
+  toc_color: "#00c4b6"
+  blockquote_padding_color: "#49b1f5"
+  blockquote_background_color: "#49b1f5"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
@@ -518,13 +518,14 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: url(https://cdn.jsdelivr.net/gh/Akilarlxh/Picgo@v2.3/tencent/site-elements/index.webp)
+
 
 # Footer Background
 footer_bg: false
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
-rightside-bottom:
+rightside-bottom: '150px'
 
 # Enter transitions (開啓網頁進入效果)
 enter_transitions: true
@@ -593,7 +594,7 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: '#F47466'
