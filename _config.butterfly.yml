@@ -861,7 +861,7 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
-
+    - <script defer src="/live2d-widget/autoload.js"></script>
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
