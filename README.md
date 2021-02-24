@@ -20,3 +20,5 @@
   - [Friend Link Card Beautify](https://akilar.top/posts/57291286/)
 10. 生肖时间轴
   - [Archive Beautify](https://akilar.top/posts/22257072/)
+11. 版权美化
+  - [Nesxc-Butterfly版权美化](https://www.nesxc.com/post/hexocc.html)
