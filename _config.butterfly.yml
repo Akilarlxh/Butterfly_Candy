@@ -1018,3 +1018,5 @@ wowjs:
       iteration: 2 #选填项，动画重复的次数
     - class: card-widget
       style: animate__zoomIn
+# 友链样式，butterfly为默认样式，volantis为站点卡片样式.flexcard为弹性卡片样式
+flink_style: flexcard # butterfly | volantis | flexcard

@@ -1,0 +1,9 @@
+- class_name: 糖果屋のVIP
+  class_desc: 售后服务享五折优惠2333
+  link_list:
+    - name: Akilar
+      link: https://akilar.top/
+      avatar: https://akilar.top/img/siteicon/favicon.png
+      descr: 欢迎光临糖果屋
+      siteshot: https://cdn.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
+      # siteshot就是站点缩略图的链接。

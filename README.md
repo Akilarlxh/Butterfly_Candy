@@ -16,3 +16,5 @@
   - [Tag Plugins](https://akilar.top/posts/615e2dec/)
 8. 动画效果
   - [Blog Animation -- Wowjs](https://akilar.top/posts/abab51cf/)
+9. 友链魔改
+  - [Friend Link Card Beautify](https://akilar.top/posts/57291286/)
