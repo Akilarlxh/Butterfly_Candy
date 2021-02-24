@@ -14,3 +14,5 @@
   - [Loading Animation](https://akilar.top/posts/3d221bf2/)
 7. 添加外挂标签
   - [Tag Plugins](https://akilar.top/posts/615e2dec/)
+8. 动画效果
+  - [Blog Animation -- Wowjs](https://akilar.top/posts/abab51cf/)
