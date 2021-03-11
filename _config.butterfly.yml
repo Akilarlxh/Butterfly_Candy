@@ -805,10 +805,10 @@ note:
 # Artitalk
 # see https://artitalk.js.org/
 artitalk:
-  appId: HgKoEBNqlisn3UceL0eYnctL-MdYXbMMI
-  appKey: NTRASNBeLT2prREh6XVbDMyt
+  appId: HgKoEBNq********L0eY*********bMMI
+  appKey: NTR********prREh6*******
   option:
-    serverURL: https://HgKoEBNq.api.lncldglobal.com
+    serverURL: https://********.api.lncldglobal.com #此处将********替换为自己的appID的前八位
     lang: zh
     pageSize: 1
     color1: '#49b1f5'
