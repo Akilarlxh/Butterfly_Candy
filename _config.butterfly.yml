@@ -1016,7 +1016,10 @@ CDN:
   animate_css: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
   # vue.js依赖
   vue: https://cdn.jsdelivr.net/npm/vue@2.6.11
-
+  # swiper
+  swiper_js: https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js
+  swiper_css: https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/css/swiper.min.css
+  swiper_init: /js/custom/swiper_init.js
 
 # custom
 ghbdage:
@@ -1083,3 +1086,7 @@ gitcalendar:
   # color: "['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f']" #浅紫色调
   # color: "['#ebedf0', '#f0fff4', '#dcffe4', '#bef5cb', '#85e89d', '#34d058', '#28a745', '#22863a', '#176f2c', '#165c26', '#144620']" #翠绿色调
   # color: "['#ebedf0', '#f1f8ff', '#dbedff', '#c8e1ff', '#79b8ff', '#2188ff', '#0366d6', '#005cc5', '#044289', '#032f62', '#05264c']" #天青色调
+
+# 首页置顶轮播图
+sliderbar:
+  enable: true

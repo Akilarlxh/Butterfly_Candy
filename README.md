@@ -28,3 +28,5 @@
   - [Gitcalendar](https://akilar.top/posts/1f9c68c9/)
 14. 基于 Butterfly 的侧边栏 Artitalk
   - [Sidebar Artitalk](https://akilar.top/posts/f1004b1d/)
+15. 基于 swiper 的首页置顶轮播图
+  - [Slider Bar](https://akilar.top/posts/8e1264d1/)

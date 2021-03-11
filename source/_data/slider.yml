@@ -1,0 +1,19 @@
+- cover: 封面图片链接
+  timeline: '2020-10-01' # 日期，需要用''包裹
+  link: 置顶文章链接，站内文章建议填相对链接
+  title: 置顶文章标题
+  description: 置顶文章描述
+  button: 手机端按钮内容
+# 示例如下
+- cover: https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover1.webp
+  timeline: '2020-10-01'
+  link: https://akilar.top/posts/7c16c4bb/
+  title: 📁Hexo博客访问优化日记
+  description: 对本站的Hexo优化路线做了个归纳.
+  button: 🍡详情
+- cover: https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover2.webp
+  timeline: '2020-10-27'
+  link: https://akilar.top/posts/f99b208/
+  title: 🦋基于Butterfly主题的美化日记
+  description: 基于butterfly的魔改美化记录.
+  button: 🍡详情

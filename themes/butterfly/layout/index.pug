@@ -6,6 +6,9 @@ block content
     if theme.gitcalendar.enable
       .recent-post-item(style='width:100%;overflow:hidden;')
         !=partial('includes/custom/gitcalendar', {}, {cache:true})
+    if theme.sliderbar.enable
+      .recent-post-item(style='height:auto;width:100%;')
+        !=partial('includes/custom/sliderbar', {}, {cache:true})
     if theme.categoryBar.enable
       .recent-post-item(style='height:auto;width:100%;padding:0px;')
         #categoryBar!= list_categories(site.categories,{class: 'categoryBar',depth: 1})

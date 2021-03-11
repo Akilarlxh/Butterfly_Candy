@@ -68,7 +68,9 @@ if theme.blog_title_font &&　theme.blog_title_font.font_link
 //- animate_css
 if theme.wowjs.enable   
   link(rel='stylesheet' href=url_for(theme.CDN.animate_css) media="print" onload="this.media='all'")
-
+//- swiper_css
+if theme.sliderbar.enable
+  link(rel='stylesheet' href=url_for(theme.CDN.swiper_css) media="print" onload="this.media='all'")
 //- global config
 !=partial('includes/head/config', {}, {cache: true})
 

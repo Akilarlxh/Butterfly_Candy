@@ -1,5 +1,5 @@
 ---
-title: Update diary
+title: Update Diary
 subtitle: 更新记录
 top_img:
 cover:
@@ -42,3 +42,7 @@ sticky: 2
   - [Categories Magnet](https://akilar.top/posts/a9131002/)
 13. 首页github提交日历
   - [Gitcalendar](https://akilar.top/posts/1f9c68c9/)
+14. 基于 Butterfly 的侧边栏 Artitalk
+  - [Sidebar Artitalk](https://akilar.top/posts/f1004b1d/)
+15. 基于 swiper 的首页置顶轮播图
+  - [Slider Bar](https://akilar.top/posts/8e1264d1/)
