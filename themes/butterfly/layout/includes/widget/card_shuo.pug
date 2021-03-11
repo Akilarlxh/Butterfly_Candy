@@ -1,0 +1,61 @@
+if theme.aside.card_shuo.enable
+  .card-widget.card-shuo
+    .card-content(style='height:auto;min-height:280px;')
+      .item-headline
+         i.fas.fa-comments
+         span= _p('aside.card_shuo')
+         a#shuovisualchange(style='cursor:pointer;float:right', onclick='shuovisualchange()') 编辑
+      #artitalk_main(style='width:100%;height:100%;padding:1px')
+
+  script(async).
+    function shuovisualchange() {
+    let btninner = document.getElementById("shuovisualchange");
+    let powervis = document.getElementsByClassName('power')[0].style.display;
+    if (powervis == "none") {
+      document.getElementsByClassName('power')[0].style.display = 'inline';
+      var authorlist = document.getElementsByClassName("shuoshuo_author_img");
+      if (authorlist) {
+        for (var i = 0; i < authorlist.length; i++) {
+          var authorimg = authorlist[i];
+          authorimg.style.display = "inline";
+        }
+      }
+      btninner.innerHTML = "隐藏";
+    } else {
+      document.getElementsByClassName('power')[0].style.display = 'none';
+      var authorlist = document.getElementsByClassName("shuoshuo_author_img");
+      if (authorlist) {
+        for (var i = 0; i < authorlist.length; i++) {
+          var authorimg = authorlist[i];
+          authorimg.style.display = "none";
+        }
+      }
+      btninner.innerHTML = "编辑";
+    }
+    }
+
+    
+  - let option = theme.artitalk.option ? JSON.stringify(theme.artitalk.option) : false
+  .js-pjax
+    script.
+      (()=>{
+        let setting = {
+          appId: '!{theme.artitalk.appId}',
+          appKey: '!{theme.artitalk.appKey}',
+        }
+
+        if (!{Boolean(option)}) {
+          const otherSetting = !{option}
+          setting = Object.assign({}, setting, otherSetting)
+        }
+
+        const init = () => {
+          new Artitalk(setting)
+        }
+
+        if (typeof Artitalk === 'function') {
+          init()
+        } else {
+          getScript('!{theme.CDN.artitalk}').then(init)
+        }
+      })()

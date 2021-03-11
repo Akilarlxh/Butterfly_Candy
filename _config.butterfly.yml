@@ -667,6 +667,8 @@ aside:
   card_announcement:
     enable: true
     content: This is my Blog
+  card_shuo:
+    enable: true #侧栏说说
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -803,9 +805,40 @@ note:
 # Artitalk
 # see https://artitalk.js.org/
 artitalk:
-  appId:
-  appKey:
+  appId: HgKoEBNqlisn3UceL0eYnctL-MdYXbMMI
+  appKey: NTRASNBeLT2prREh6XVbDMyt
   option:
+    serverURL: https://HgKoEBNq.api.lncldglobal.com
+    lang: zh
+    pageSize: 1
+    color1: '#49b1f5'
+    color2: '#00c4b6'
+    atEmoji: {
+      'Mafumafu1':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749454.png',
+      'Mafumafu2':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png',
+      'Mafumafu3':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749456.png',
+      'Mafumafu4':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749457.png',
+      'Mafumafu5':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749458.png',
+      'Mafumafu6':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749459.png',
+      'Mafumafu7':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749460.png',
+      'Mafumafu8':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749461.png',
+      'Mafumafu9':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749462.png',
+      'Mafumafu10':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749463.png',
+      'Mafumafu11':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749464.png',
+      'Mafumafu12':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749465.png',
+      'Mafumafu13':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749466.png',
+      'Mafumafu14':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749467.png',
+      'Mafumafu15':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749468.png',
+      'Mafumafu16':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749469.png',
+      'Mafumafu17':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749470.png',
+      'Mafumafu18':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749471.png',
+      'Mafumafu19':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749472.png',
+      'Mafumafu20':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749473.png',
+      'Mafumafu21':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749474.png',
+      'Mafumafu22':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749475.png',
+      'Mafumafu23':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749476.png',
+      'Mafumafu24':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749477.png',}
+
 
 # Pjax [Beta]
 # It may contain bugs and unstable, give feedback when you find the bugs.

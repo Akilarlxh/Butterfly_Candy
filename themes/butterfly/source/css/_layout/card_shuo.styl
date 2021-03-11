@@ -1,0 +1,37 @@
+if hexo-config('aside.card_shuo.enable')
+  .cbp_tmlabel
+    &:after
+      border-right-color transparent !important
+
+  #artitalk_main
+    .cbp_tmtimeline
+      & > li
+        .cbp_tmlabel
+          display inline-block!important
+          margin 0 0 30px 0px !important
+          &:after
+            border-right-color transparent !important
+
+  .artitalk_avatar
+    width 40px
+    height 40px
+
+  span
+    &.shuoshuo_author_img
+      display none
+
+  .power
+    display none
+    padding 10px!important
+    text-align left!important
+
+  #switchUser,
+  #pubShuo,
+  #pubComment,
+  #uploadSource
+    padding-right 10px!important
+  #uploadSource
+    .icon
+      width 1.2em!important
+      height 1.2em!important
+      vertical-align 0!important
