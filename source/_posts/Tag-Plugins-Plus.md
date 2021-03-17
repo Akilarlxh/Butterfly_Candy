@@ -1,18 +1,19 @@
 ---
 title: Tag Plugins Plus
 subtitle: 基于Butterfly的外挂标签引入
-top_img:
-cover:
 highlight_shrink: false
 tags:
   - "\U0001F4C1Hexo"
   - "\U0001F98BButterfly"
 categories: "\U0001F361Akilarの糖葫芦"
 description: 添加大量外挂标签样式。
-date: 2020-11-14 15:55:44
-updated: 2021-2-24 14:34:23
-comments:
 sticky: 2
+abbrlink: 41070
+date: 2020-11-14 15:55:44
+updated: 2021-02-24 14:34:23
+top_img:
+cover:
+comments:
 ---
 
 {% tip home %}

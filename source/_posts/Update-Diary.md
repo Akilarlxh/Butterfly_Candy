@@ -1,18 +1,19 @@
 ---
 title: Update Diary
 subtitle: 更新记录
-top_img:
-cover:
 highlight_shrink: false
 tags:
   - "\U0001F4C1Hexo"
   - "\U0001F98BButterfly"
 categories: "\U0001F361Akilarの糖葫芦"
 description: 更新记录
+sticky: 2
+abbrlink: 19180
 date: 2021-02-24 15:55:44
 updated: 2021-02-24 17:29:23
+top_img:
+cover:
 comments:
-sticky: 2
 ---
 
 本项目为糖果屋魔改教程的测试Demo，目前已经测试通过的魔改内容有：

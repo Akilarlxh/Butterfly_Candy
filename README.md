@@ -44,3 +44,7 @@ npm install
   - [Sidebar Card Clock](https://akilar.top/posts/4e39cf4a/)
 
 # [Hexo 博客访问优化日记](https://akilar.top/posts/7c16c4bb/)
+1. 静态资源加速(主要针对Gulp配置)
+  - [Hexo博客静态资源加速](https://akilar.top/posts/969dffe3/)
+2. 给博客添加PWA
+  - [基于Butterfly主题的PWA实现方案](https://akilar.top/posts/7c16c4bb/)
