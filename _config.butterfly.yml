@@ -885,13 +885,14 @@ lazyload:
 # PWA
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
-# pwa:
-#   enable: false
-#   manifest: /pwa/manifest.json
-#   apple_touch_icon: /pwa/apple-touch-icon.png
-#   favicon_32_32: /pwa/32.png
-#   favicon_16_16: /pwa/16.png
-#   mask_icon: /pwa/safari-pinned-tab.svg
+pwa:
+  enable: true
+  manifest: /manifest.json
+  theme_color: '#212121'
+  apple_touch_icon: /assets/siteicon/apple-touch-icon.png
+  favicon_32_32: /assets/siteicon/favicon-32x32.png
+  favicon_16_16: /assets/siteicon/favicon-16x16.png
+  mask_icon: /assets/siteicon/safari-pinned-tab.svg
 
 # Open graph meta tags
 # https://developers.facebook.com/docs/sharing/webmasters/
