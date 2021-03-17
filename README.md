@@ -1,5 +1,15 @@
 # 糖果屋魔改合集
-本项目为糖果屋魔改教程的测试Demo，目前已经测试通过的魔改内容有：
+本项目为糖果屋魔改教程的测试Demo，在本地运行以下指令后即可开始使用。
+```bash
+git clone https://github.com/Akilarlxh/Butterfly_Candy.git
+cd .\Butterfly_Candy\
+npm install
+```
+整合包内提供的`menu.sh`为简易脚本，双击运行。涉及github仓库操作的选项需要您修改脚本中的仓库URL。
+
+以下是已经通过测试的内容：
+# [基于 Butterfly 主题的美化日记](https://akilar.top/posts/f99b208/)
+
 1. 添加看板娘
   - [Live2d Widget](https://akilar.top/posts/5b8f515f/)
 2. Valine 评论添加 [博主，小伙伴，访客] 标签
