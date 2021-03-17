@@ -103,3 +103,39 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# APlayer
+# https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
+aplayer:
+  meting: true
+  asset_inject: false
+
+# local_search
+search:
+  path: search.xml
+  field: post
+  content: true
+
+# hexo-renderer-kramed
+# https://www.npmjs.com/package/hexo-renderer-kramed
+kramed:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+# hexo-generator-feed
+# https://github.com/hexojs/hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 5
+
+# hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+# hexo-generator-baidu-sitemap
+baidusitemap:
+  path: baidusitemap.xml

@@ -42,3 +42,5 @@ npm install
   - [Slider Bar](https://akilar.top/posts/8e1264d1/)
 16. 基于Butterfly主题的侧边栏电子钟
   - [Sidebar Card Clock](https://akilar.top/posts/4e39cf4a/)
+
+# [Hexo 博客访问优化日记](https://akilar.top/posts/7c16c4bb/)
