@@ -6,11 +6,11 @@ tags:
   - "\U0001F4C1Hexo"
   - "\U0001F98BButterfly"
 categories: "\U0001F361Akilarの糖葫芦"
-description: 更新记录
+description: 截止2021年4月27日的更新内容
 sticky: 2
 abbrlink: 19180
 date: 2021-02-24 15:55:44
-updated: 2021-02-24 17:29:23
+updated: 2021-04-27 11:09:23
 top_img:
 cover:
 comments:
@@ -61,7 +61,9 @@ npm install
 16. 基于Butterfly主题的侧边栏电子钟
   - [Sidebar Card Clock](https://akilar.top/posts/4e39cf4a/)
 17. 糖果屋微调合集
-  - [截止20210427更新内容](https://akilar.top/posts/23fdf850/)
+  - [左上角站点标题](https://akilar.top/posts/23fdf850/#左上角站点标题)
+  - [菜单栏多色图标配置教程](https://akilar.top/posts/23fdf850/#菜单栏多色图标配置教程)
+  - [Social卡片彩色图标引入](https://akilar.top/posts/23fdf850/#Social卡片彩色图标引入)
 
 # [Hexo 博客访问优化日记](https://akilar.top/posts/7c16c4bb/)
 1. 静态资源加速(主要针对Gulp配置)

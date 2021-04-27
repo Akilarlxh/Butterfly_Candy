@@ -11,13 +11,9 @@ menu:
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  # List||fas fa-list:
-  #   - Music || /music/ || fas fa-music
-  #   - Movie || /movies/ || fas fa-video
-  留言: /comments/ || fa fa-comments
-  友链: /link/ || fas fa-link
-  # About: /about/ || fas fa-heart
-
+  拓展 || icon-tigera :
+    留言: /comments/ || fa fa-comments
+    友链: /link/ || fas fa-link
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
 
@@ -43,8 +39,12 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  # fab fa-github: https://github.com/xxxxx || Github
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  # iconfont多彩图标
+  Github: https://github.com/Akilarlxh || icon-rat || faa-tada
+  # fontawesome单色图标
+  Email: mailto:Akilarlxh@gmail.com || fas fa-envelope || faa-tada
+  # iconfont单色图标
+  Bilibili: https://space.bilibili.com/22976782 || icon-ox || faa-tada
 
 # search (搜索)
 # --------------------------------------

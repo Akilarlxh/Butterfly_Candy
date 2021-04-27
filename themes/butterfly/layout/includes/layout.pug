@@ -11,7 +11,10 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
       !=partial('includes/loading/loading', {}, {cache: true})
 
     if theme.background
-      #web_bg
+      if page.background
+        #web_bg(style=`background:`+ page.background + `;background-attachment: local;background-position: center;background-size: cover;background-repeat: no-repeat;`)
+      else
+        #web_bg
       
     !=partial('includes/sidebar', {}, {cache: true})
 
