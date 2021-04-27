@@ -31,6 +31,9 @@
 .tk-input[data-v-619b4c52]
   .el-textarea__inner
     height 130px!important
+    &:focus
+      background-image: none !important
+
 /*页脚copyright文字图标对齐*/
 .copyright
   span
@@ -90,21 +93,26 @@
     word-wrap break-word !important
     *white-space normal !important
 /*标题字体*/
-@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap:lighter')
 @font-face
   font-family 'Candyhome'
   src url('https://cdn.jsdelivr.net/gh/Akilarlxh/akilarlxh.github.io/fonts/Candyhome.ttf')
+  font-display swap
+  font-weight lighter
+/*正文字体*/
+@font-face
+  font-family 'ZhuZiAYuanJWD'
+  src url('https://cdn.jsdelivr.net/gh/Akilarlxh/akilarlxh.github.io/fonts/ZhuZiAYuanJWD.ttf')
   font-display swap
   font-weight lighter
 
 h1#site-title
   font-family 'Candyhome'
   font-size 3em!important
-
-div#post p,
-div#post li,
-.table-container
-  font-family -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "STZhongsong", "Lantinghei SC", sans-serif
+a.categoryBar-list-link,
+a.blog-slider__title,
+a.article-title,
+h1.post-title
+  font-family 'Candyhome'
 /*电子钟字体*/
 @font-face
   font-family 'UnidreamLED'
@@ -119,7 +127,11 @@ div#post li,
         left -66px !important
         &:hover
           left 0px !important
-
+/*侧栏评论头像圆角*/
+.aside-list .aside-list-item .thumbnail img
+  border-radius: 35%
+  &hover
+    border-radius: 35%
 /* 鼠标指针 */
 body,
 html
