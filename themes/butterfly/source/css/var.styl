@@ -28,7 +28,7 @@ $title-prefix-icon = $beautifyEnable ? hexo-config('beautify.title-prefix-icon')
 $title-prefix-icon-color = $beautifyEnable ? convert(hexo-config('beautify.title-prefix-icon-color')) : $light-red
 // Global Variables
 $font-size = hexo-config('font.global-font-size') ? convert(hexo-config('font.global-font-size')) : 14px
-$code-font-size = hexo-config('font.code-font-size') ? convert(hexo-config('font.code-font-size')) : $font-size
+$code-font-size = hexo-config('font.code-font-size') ? convert(hexo-config('font.code-font-size')) : var(--global-font-size)
 $font-color = #1F2D3D
 $rem = 20px
 $text-line-height = 2
@@ -95,7 +95,7 @@ $gallery-color = #fff
 $tag-hide-bg = $theme-color
 $tag-hide-toggle-bg = #f0f0f0
 // preloader
-$preloader-bg = hexo-config('preloader.enable') && hexo-config('preloader.load_color') ? convert(hexo-config('preloader.load_color')) : #37474f
+$preloader-bg = #37474f
 $preloader-word-color = #fff
 // rightside
 $rightside-bottom = hexo-config('rightside-bottom') ? convert(hexo-config('rightside-bottom')) : 40px
