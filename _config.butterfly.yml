@@ -11,7 +11,11 @@ menu:
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
+<<<<<<< HEAD
   拓展 || icon-tiger :
+=======
+  拓展 || icon-tigera :
+>>>>>>> 8b3f463a947b2c4b112a9cc348454bf42639c50c
     留言: /comments/ || fa fa-comments
     友链: /link/ || fas fa-link
 # Hide the child menu items in mobile sidebar
