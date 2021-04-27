@@ -84,7 +84,7 @@ comments:
 
 {% folding cyan open, 点开查看配置教程 %}
 1. 下载资源文件
-{% ghcard Akilarlxh/Tag_Plugins theme="vue" %}
+{% ghcard Akilarlxh/Tag_Plugins, theme="vue" %}
 2. 将下载的`Tag_Plugins.zip`解压得到`butterfly`文件夹。
 3. 将`butterfly`文件夹复制到`[Blogroot]\themes\`目录下，覆盖当前的`butterfly`主题文件夹，提示重复则选择替换。(如果担心覆盖自己的其他魔改内容，可以根据静态文件内容自主比对修改)
 4. 修改`[Blogroot]\_config.butterfly.yml`的`inject`配置项，添加`CDN`依赖项。由于`issues`写入`timeline`和`site-card`标签要用到`jquery`，请务必根据注释指示的版本决定是否添加。
