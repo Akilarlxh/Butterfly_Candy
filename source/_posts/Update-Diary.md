@@ -16,7 +16,18 @@ cover:
 comments:
 ---
 
-本项目为糖果屋魔改教程的测试Demo，目前已经测试通过的魔改内容有：
+本项目为糖果屋魔改教程的测试Demo，在本地运行以下指令后即可开始使用。
+```bash
+git clone https://github.com/Akilarlxh/Butterfly_Candy.git
+cd .\Butterfly_Candy\
+npm install gulp-cli -g
+npm install
+```
+整合包内提供的`menu.sh`为简易脚本，双击运行。涉及github仓库操作的选项需要您修改脚本中的仓库URL。
+
+以下是已经通过测试的内容：
+# [基于 Butterfly 主题的美化日记](https://akilar.top/posts/f99b208/)
+
 1. 添加看板娘
   - [Live2d Widget](https://akilar.top/posts/5b8f515f/)
 2. Valine 评论添加 [博主，小伙伴，访客] 标签
@@ -49,3 +60,11 @@ comments:
   - [Slider Bar](https://akilar.top/posts/8e1264d1/)
 16. 基于Butterfly主题的侧边栏电子钟
   - [Sidebar Card Clock](https://akilar.top/posts/4e39cf4a/)
+17. 糖果屋微调合集
+  - [截止20210427更新内容](https://akilar.top/posts/23fdf850/)
+
+# [Hexo 博客访问优化日记](https://akilar.top/posts/7c16c4bb/)
+1. 静态资源加速(主要针对Gulp配置)
+  - [Hexo博客静态资源加速](https://akilar.top/posts/969dffe3/)
+2. 给博客添加PWA
+  - [基于Butterfly主题的PWA实现方案](https://akilar.top/posts/7c16c4bb/)

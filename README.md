@@ -4,6 +4,7 @@
 ```bash
 git clone https://github.com/Akilarlxh/Butterfly_Candy.git
 cd .\Butterfly_Candy\
+npm install gulp-cli -g
 npm install
 ```
 整合包内提供的`menu.sh`为简易脚本，双击运行。涉及github仓库操作的选项需要您修改脚本中的仓库URL。
@@ -43,6 +44,8 @@ npm install
   - [Slider Bar](https://akilar.top/posts/8e1264d1/)
 16. 基于Butterfly主题的侧边栏电子钟
   - [Sidebar Card Clock](https://akilar.top/posts/4e39cf4a/)
+17. 糖果屋微调合集
+  - [截止20210427更新内容](https://akilar.top/posts/23fdf850/)
 
 # [Hexo 博客访问优化日记](https://akilar.top/posts/7c16c4bb/)
 1. 静态资源加速(主要针对Gulp配置)
