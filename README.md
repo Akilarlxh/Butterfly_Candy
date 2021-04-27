@@ -45,8 +45,9 @@ npm install
 16. 基于Butterfly主题的侧边栏电子钟
   - [Sidebar Card Clock](https://akilar.top/posts/4e39cf4a/)
 17. 糖果屋微调合集
-  - [截止20210427更新内容](https://akilar.top/posts/23fdf850/)
-
+  - [左上角站点标题](https://akilar.top/posts/23fdf850/#左上角站点标题)
+  - [菜单栏多色图标配置教程](https://akilar.top/posts/23fdf850/#菜单栏多色图标配置教程)
+  - [Social卡片彩色图标引入](https://akilar.top/posts/23fdf850/#Social卡片彩色图标引入)
 # [Hexo 博客访问优化日记](https://akilar.top/posts/7c16c4bb/)
 1. 静态资源加速(主要针对Gulp配置)
   - [Hexo博客静态资源加速](https://akilar.top/posts/969dffe3/)
