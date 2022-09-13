@@ -26,7 +26,7 @@ gulp.task('generate-service-worker', () => {
 });
 
 //minify js babel
-// gulp.task('compress', () =>
+// gulp.task('compress', async() =>
 //   gulp.src(['./public/**/*.js', '!./public/**/*.min.js','!./public/js/custom/galmenu.js','!./public/js/custom/gitcalendar.js','!./public/js/custom/runtime.js','!./public/js/custom/wow_init.js','!./public/live2d_widget/waifu_init.js','!./public/live2d_widget/waifu-tips.js'])
 // 		.pipe(babel({
 // 			presets: ['@babel/preset-env']
@@ -35,13 +35,13 @@ gulp.task('generate-service-worker', () => {
 //       console.log(e);
 //     }))
 // 		.pipe(gulp.dest('./public'))
-// );
+// });
 // minify js - gulp-tester
-gulp.task('compress', () =>
+gulp.task('compress', async() =>
   gulp.src(['./public/**/*.js', '!./public/**/*.min.js'])
     .pipe(terser())
     .pipe(gulp.dest('./public'))
-)
+});
 
 //css
 gulp.task('minify-css', () => {
